@@ -9,7 +9,7 @@ const {
   app, TextInput
 } = require('tabris');
 
-const IMAGE_PATH = 'https://bettydraws.github.io/imd-learning-tabris/images/';
+const IMAGE_PATH = 'https://bettydraws.github.io/imd-learning-tabris/';
 const MY_GITHUB_REPO = 'https://github.com/bettydraws/imd-learning-tabris'
 
 // global variables
@@ -100,7 +100,7 @@ let winnerimage = new ImageView({
       label.text = 'New Game';
       winnerimage.image = '';
       numWins = 0;
-      image1.image = 'https://assets-cdn.github.com/images/modules/logos_page/Octocat.png';
+      image1.image = 'https://assets-cdn.github.com/modules/logos_page/Octocat.png';
 
   }).appendTo(ui.contentView);
 
